@@ -150,6 +150,33 @@ InitializationMatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/InitializationMatrix.cpp.s
 .PHONY : InitializationMatrix.cpp.s
 
+OptimizedParallelMatrixMultiplication.o: OptimizedParallelMatrixMultiplication.cpp.o
+
+.PHONY : OptimizedParallelMatrixMultiplication.o
+
+# target to build an object file
+OptimizedParallelMatrixMultiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o
+.PHONY : OptimizedParallelMatrixMultiplication.cpp.o
+
+OptimizedParallelMatrixMultiplication.i: OptimizedParallelMatrixMultiplication.cpp.i
+
+.PHONY : OptimizedParallelMatrixMultiplication.i
+
+# target to preprocess a source file
+OptimizedParallelMatrixMultiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.i
+.PHONY : OptimizedParallelMatrixMultiplication.cpp.i
+
+OptimizedParallelMatrixMultiplication.s: OptimizedParallelMatrixMultiplication.cpp.s
+
+.PHONY : OptimizedParallelMatrixMultiplication.s
+
+# target to generate assembly for a file
+OptimizedParallelMatrixMultiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.s
+.PHONY : OptimizedParallelMatrixMultiplication.cpp.s
+
 ParallelMultiplication.o: ParallelMultiplication.cpp.o
 
 .PHONY : ParallelMultiplication.o
@@ -270,6 +297,9 @@ help:
 	@echo "... InitializationMatrix.o"
 	@echo "... InitializationMatrix.i"
 	@echo "... InitializationMatrix.s"
+	@echo "... OptimizedParallelMatrixMultiplication.o"
+	@echo "... OptimizedParallelMatrixMultiplication.i"
+	@echo "... OptimizedParallelMatrixMultiplication.s"
 	@echo "... ParallelMultiplication.o"
 	@echo "... ParallelMultiplication.i"
 	@echo "... ParallelMultiplication.s"

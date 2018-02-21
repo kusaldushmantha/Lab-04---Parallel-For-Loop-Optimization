@@ -11,4 +11,4 @@ if (OPENMP_FOUND)
 endif()
 
 
-add_executable(Lab4 main.cpp InitializationMatrix.cpp InitializationMatrix.h SequentialMultiplication.cpp SequentialMultiplication.h SampleCalculator.cpp SampleCalculator.h ParallelMultiplication.cpp ParallelMultiplication.h)
+add_executable(Lab4 main.cpp InitializationMatrix.cpp InitializationMatrix.h SequentialMultiplication.cpp SequentialMultiplication.h SampleCalculator.cpp SampleCalculator.h ParallelMultiplication.cpp ParallelMultiplication.h OptimizedParallelMatrixMultiplication.cpp OptimizedParallelMatrixMultiplication.h)

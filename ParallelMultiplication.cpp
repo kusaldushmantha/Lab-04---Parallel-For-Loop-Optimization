@@ -12,8 +12,8 @@ ParallelMultiplication::parallelMultiply(vector<vector<double>> matA,
     auto dimensions = (int)matA.size();
     noThreadCount = 0;
 
-    double startTime = clock();
     omp_set_num_threads(10);
+    double startTime = clock();
     #pragma omp parallel for
         for(int i=0 ; i<dimensions; i++){
             noThreadCount = omp_get_num_threads();

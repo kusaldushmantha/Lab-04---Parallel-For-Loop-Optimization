@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kusal/CLionProjects/Lab4/InitializationMatrix.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o"
+  "/home/kusal/CLionProjects/Lab4/OptimizedParallelMatrixMultiplication.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o"
   "/home/kusal/CLionProjects/Lab4/ParallelMultiplication.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o"
   "/home/kusal/CLionProjects/Lab4/SampleCalculator.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/SampleCalculator.cpp.o"
   "/home/kusal/CLionProjects/Lab4/SequentialMultiplication.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o"

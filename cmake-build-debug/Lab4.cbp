@@ -90,6 +90,12 @@
 		<Unit filename="/home/kusal/CLionProjects/Lab4/InitializationMatrix.h">
 			<Option target="Lab4"/>
 		</Unit>
+		<Unit filename="/home/kusal/CLionProjects/Lab4/OptimizedParallelMatrixMultiplication.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/home/kusal/CLionProjects/Lab4/OptimizedParallelMatrixMultiplication.h">
+			<Option target="Lab4"/>
+		</Unit>
 		<Unit filename="/home/kusal/CLionProjects/Lab4/ParallelMultiplication.cpp">
 			<Option target="Lab4"/>
 		</Unit>
