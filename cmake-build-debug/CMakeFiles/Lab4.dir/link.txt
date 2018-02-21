@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -g    CMakeFiles/Lab4.dir/main.cpp.o CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o CMakeFiles/Lab4.dir/SampleCalculator.cpp.o CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o  -o Lab4 
