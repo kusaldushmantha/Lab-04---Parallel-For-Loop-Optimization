@@ -11,7 +11,7 @@ vector<vector<double>> InitializationMatrix::generateSquareMatrix(int dimensions
     for (int i = 0; i < dimensions; i++) {
         vector<double> temp;
         for (int j = 0; j < dimensions; j++) {
-            double randomValue = (rand() % 100 + 1) / double((rand() % 5 + 1));
+            double randomValue = (rand() % 100 + 1) / 10.0;
             temp.push_back(randomValue);
         }
         finalMatrix.push_back(temp);

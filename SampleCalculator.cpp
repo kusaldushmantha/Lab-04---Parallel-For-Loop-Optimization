@@ -13,7 +13,7 @@ void SampleCalculator::noOfSamplesCalc(int iterations, int dimensions, int isPar
     InitializationMatrix init;
     SequentialMultiplication seqMul;
     ParallelMultiplication parallelMul;
-    OptimizedParallelMatrixMultiplication optimised;
+    OptimizedParallelMatrixMultiplication optimisedMul;
 
     vector<double> timeCollection;;
     int threads = 1;
@@ -29,8 +29,8 @@ void SampleCalculator::noOfSamplesCalc(int iterations, int dimensions, int isPar
         }else if(isParallel==1){
             timeCollection.push_back(seqMul.sequentialMultiply(matrixA, matrixB, matrixC));
         }else {
-            timeCollection.push_back(optimised.optimizedMultiplication(matrixA, matrixB, matrixC, dimensions));
-            threads = optimised.threadCount;
+            timeCollection.push_back(optimisedMul.optimizedMultiplication(matrixA, matrixB, matrixC, dimensions));
+            threads = optimisedMul.threadCount;
         }
 
     }

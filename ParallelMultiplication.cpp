@@ -12,7 +12,7 @@ ParallelMultiplication::parallelMultiply(vector<vector<double>> matA,
     auto dimensions = (int) matA.size();
     noThreadCount = 0;
 
-    omp_set_num_threads(10);
+    //omp_set_num_threads(10);
     double startTime = clock();
     #pragma omp parallel for
     for (int i = 0; i < dimensions; i++) {
@@ -24,7 +24,6 @@ ParallelMultiplication::parallelMultiply(vector<vector<double>> matA,
             }
         }
     }
-
     double endTime = clock();
 
     //VALIDATING THE MULTIPLICATION

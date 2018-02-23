@@ -14,7 +14,7 @@ OptimizedParallelMatrixMultiplication::optimizedMultiplication(vector<vector<dou
 
     threadCount = 0;
 
-    omp_set_num_threads(10);
+    //omp_set_num_threads(10);
     double startTime = clock();
     #pragma omp parallel for
     for (int i = 0; i < dimension; i++) {
