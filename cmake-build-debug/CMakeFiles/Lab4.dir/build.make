@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/6/bin/cmake/bin/cmake
+CMAKE_COMMAND = /media/menuka/Data/Ubuntu-Installations/clion-2017.3.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/6/bin/cmake/bin/cmake -E remove -f
+RM = /media/menuka/Data/Ubuntu-Installations/clion-2017.3.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kusal/CLionProjects/Lab4
+CMAKE_SOURCE_DIR = /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kusal/CLionProjects/Lab4/cmake-build-debug
+CMAKE_BINARY_DIR = /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab4.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Lab4.dir/flags.make
 
 CMakeFiles/Lab4.dir/main.cpp.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab4.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/main.cpp.o -c /home/kusal/CLionProjects/Lab4/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab4.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/main.cpp.o -c /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/main.cpp
 
 CMakeFiles/Lab4.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusal/CLionProjects/Lab4/main.cpp > CMakeFiles/Lab4.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/main.cpp > CMakeFiles/Lab4.dir/main.cpp.i
 
 CMakeFiles/Lab4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusal/CLionProjects/Lab4/main.cpp -o CMakeFiles/Lab4.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/main.cpp -o CMakeFiles/Lab4.dir/main.cpp.s
 
 CMakeFiles/Lab4.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Lab4.dir/main.cpp.o.provides.build: CMakeFiles/Lab4.dir/main.cpp.o
 
 CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o: ../InitializationMatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o -c /home/kusal/CLionProjects/Lab4/InitializationMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o -c /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.cpp
 
 CMakeFiles/Lab4.dir/InitializationMatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/InitializationMatrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusal/CLionProjects/Lab4/InitializationMatrix.cpp > CMakeFiles/Lab4.dir/InitializationMatrix.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.cpp > CMakeFiles/Lab4.dir/InitializationMatrix.cpp.i
 
 CMakeFiles/Lab4.dir/InitializationMatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/InitializationMatrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusal/CLionProjects/Lab4/InitializationMatrix.cpp -o CMakeFiles/Lab4.dir/InitializationMatrix.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.cpp -o CMakeFiles/Lab4.dir/InitializationMatrix.cpp.s
 
 CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o.provides.build: CMakeFiles/Lab4.d
 
 CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o: ../SequentialMultiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o -c /home/kusal/CLionProjects/Lab4/SequentialMultiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o -c /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SequentialMultiplication.cpp
 
 CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusal/CLionProjects/Lab4/SequentialMultiplication.cpp > CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SequentialMultiplication.cpp > CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.i
 
 CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusal/CLionProjects/Lab4/SequentialMultiplication.cpp -o CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SequentialMultiplication.cpp -o CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.s
 
 CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o.provides.build: CMakeFiles/La
 
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.o: ../SampleCalculator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab4.dir/SampleCalculator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/SampleCalculator.cpp.o -c /home/kusal/CLionProjects/Lab4/SampleCalculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab4.dir/SampleCalculator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/SampleCalculator.cpp.o -c /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SampleCalculator.cpp
 
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/SampleCalculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusal/CLionProjects/Lab4/SampleCalculator.cpp > CMakeFiles/Lab4.dir/SampleCalculator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SampleCalculator.cpp > CMakeFiles/Lab4.dir/SampleCalculator.cpp.i
 
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/SampleCalculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusal/CLionProjects/Lab4/SampleCalculator.cpp -o CMakeFiles/Lab4.dir/SampleCalculator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SampleCalculator.cpp -o CMakeFiles/Lab4.dir/SampleCalculator.cpp.s
 
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Lab4.dir/SampleCalculator.cpp.o.provides.build: CMakeFiles/Lab4.dir/S
 
 CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o: ../ParallelMultiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o -c /home/kusal/CLionProjects/Lab4/ParallelMultiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o -c /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ParallelMultiplication.cpp
 
 CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusal/CLionProjects/Lab4/ParallelMultiplication.cpp > CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ParallelMultiplication.cpp > CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.i
 
 CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusal/CLionProjects/Lab4/ParallelMultiplication.cpp -o CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ParallelMultiplication.cpp -o CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.s
 
 CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o.provides.build: CMakeFiles/Lab4
 
 CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o: ../OptimizedParallelMatrixMultiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o -c /home/kusal/CLionProjects/Lab4/OptimizedParallelMatrixMultiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o -c /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/OptimizedParallelMatrixMultiplication.cpp
 
 CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusal/CLionProjects/Lab4/OptimizedParallelMatrixMultiplication.cpp > CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/OptimizedParallelMatrixMultiplication.cpp > CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.i
 
 CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusal/CLionProjects/Lab4/OptimizedParallelMatrixMultiplication.cpp -o CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/OptimizedParallelMatrixMultiplication.cpp -o CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.s
 
 CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o.requires:
 
@@ -221,7 +221,7 @@ Lab4: CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o
 Lab4: CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o
 Lab4: CMakeFiles/Lab4.dir/build.make
 Lab4: CMakeFiles/Lab4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Lab4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Lab4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/Lab4.dir/clean:
 .PHONY : CMakeFiles/Lab4.dir/clean
 
 CMakeFiles/Lab4.dir/depend:
-	cd /home/kusal/CLionProjects/Lab4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kusal/CLionProjects/Lab4 /home/kusal/CLionProjects/Lab4 /home/kusal/CLionProjects/Lab4/cmake-build-debug /home/kusal/CLionProjects/Lab4/cmake-build-debug /home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Lab4.dir/depend
 

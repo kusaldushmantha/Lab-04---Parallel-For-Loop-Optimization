@@ -6,65 +6,81 @@
 
 #IncludeRegexTransform: 
 
-/home/kusal/CLionProjects/Lab4/InitializationMatrix.cpp
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.cpp
 iostream
 -
 InitializationMatrix.h
-/home/kusal/CLionProjects/Lab4/InitializationMatrix.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.h
 
-/home/kusal/CLionProjects/Lab4/InitializationMatrix.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.h
 string
 -
 vector
 -
 
-/home/kusal/CLionProjects/Lab4/ParallelMultiplication.cpp
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/OptimizedParallelMatrixMultiplication.cpp
+OptimizedParallelMatrixMultiplication.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/OptimizedParallelMatrixMultiplication.h
+InitializationMatrix.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.h
+omp.h
+-
+
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/OptimizedParallelMatrixMultiplication.h
+iostream
+-
+vector
+-
+
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ParallelMultiplication.cpp
 omp.h
 -
 ParallelMultiplication.h
-/home/kusal/CLionProjects/Lab4/ParallelMultiplication.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ParallelMultiplication.h
 
-/home/kusal/CLionProjects/Lab4/ParallelMultiplication.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ParallelMultiplication.h
 iostream
 -
 vector
 -
 
-/home/kusal/CLionProjects/Lab4/SampleCalculator.cpp
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SampleCalculator.cpp
 cmath
 -
 SampleCalculator.h
-/home/kusal/CLionProjects/Lab4/SampleCalculator.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SampleCalculator.h
 SequentialMultiplication.h
-/home/kusal/CLionProjects/Lab4/SequentialMultiplication.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SequentialMultiplication.h
 InitializationMatrix.h
-/home/kusal/CLionProjects/Lab4/InitializationMatrix.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.h
 ParallelMultiplication.h
-/home/kusal/CLionProjects/Lab4/ParallelMultiplication.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ParallelMultiplication.h
+OptimizedParallelMatrixMultiplication.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/OptimizedParallelMatrixMultiplication.h
 
-/home/kusal/CLionProjects/Lab4/SampleCalculator.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SampleCalculator.h
 iostream
 -
 vector
 -
 
-/home/kusal/CLionProjects/Lab4/SequentialMultiplication.cpp
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SequentialMultiplication.cpp
 SequentialMultiplication.h
-/home/kusal/CLionProjects/Lab4/SequentialMultiplication.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SequentialMultiplication.h
 utility
 -
 omp.h
 -
 
-/home/kusal/CLionProjects/Lab4/SequentialMultiplication.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SequentialMultiplication.h
 iostream
 -
 vector
 -
 ctime
-/home/kusal/CLionProjects/Lab4/ctime
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ctime
 
-/home/kusal/CLionProjects/Lab4/main.cpp
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/main.cpp
 SampleCalculator.h
-/home/kusal/CLionProjects/Lab4/SampleCalculator.h
+/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SampleCalculator.h
 

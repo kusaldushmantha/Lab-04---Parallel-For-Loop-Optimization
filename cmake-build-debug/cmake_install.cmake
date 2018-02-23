@@ -1,4 +1,4 @@
-# Install script for directory: /home/kusal/CLionProjects/Lab4
+# Install script for directory: /media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kusal/CLionProjects/Lab4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -12,8 +12,10 @@ using namespace std;
 
 class OptimizedParallelMatrixMultiplication {
 public:
-    void optimizedMultiplication(vector<vector<double>> matA,vector<vector<double>> matB,vector<vector<double>> emptyMat,int dimension);
+     double optimizedMultiplication(vector<vector<double>> matA,vector<vector<double>> matB,vector<vector<double>> emptyMat,int dimension);
 
+public:
+    int threadCount =0;
 public:
     vector<vector<double>> transposeMatrix(vector<vector<double>> matrix, int dimensions);
 

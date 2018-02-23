@@ -12,12 +12,12 @@ SequentialMultiplication::sequentialMultiply(vector<vector<double>> matA,
                                              vector<vector<double>> matB,
                                              vector<vector<double>> matC) {
 
-    auto dimensions = (int)matA.size();
+    auto dimensions = (int) matA.size();
 
     double startTime = clock();
-    for(int i=0 ; i<dimensions; i++){
-        for(int j=0; j<dimensions; j++){
-            for(int k=0; k<dimensions; k++){
+    for (int i = 0; i < dimensions; i++) {
+        for (int j = 0; j < dimensions; j++) {
+            for (int k = 0; k < dimensions; k++) {
                 matC[i][j] += matA[i][k] * matB[k][j];
             }
         }
@@ -32,9 +32,9 @@ SequentialMultiplication::sequentialMultiply(vector<vector<double>> matA,
         cout<<endl;
     }*/
 
-    double elapsedTime = (endTime-startTime)/CLOCKS_PER_SEC;
+    double elapsedTime = (endTime - startTime) / CLOCKS_PER_SEC;
 
     //cout<<"Time Elapsed: "+to_string(elapsedTime)<<endl;
-    cout<<elapsedTime<<endl;
+    cout << elapsedTime << endl;
     return elapsedTime;
 }

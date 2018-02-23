@@ -4,10 +4,15 @@
 CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o: ../InitializationMatrix.cpp
 CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o: ../InitializationMatrix.h
 
+CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o: ../InitializationMatrix.h
+CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o: ../OptimizedParallelMatrixMultiplication.cpp
+CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o: ../OptimizedParallelMatrixMultiplication.h
+
 CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o: ../ParallelMultiplication.cpp
 CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o: ../ParallelMultiplication.h
 
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.o: ../InitializationMatrix.h
+CMakeFiles/Lab4.dir/SampleCalculator.cpp.o: ../OptimizedParallelMatrixMultiplication.h
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.o: ../ParallelMultiplication.h
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.o: ../SampleCalculator.cpp
 CMakeFiles/Lab4.dir/SampleCalculator.cpp.o: ../SampleCalculator.h
