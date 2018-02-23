@@ -13,7 +13,7 @@ using namespace std;
 
 class SampleCalculator {
 public:
-    void noOfSamplesCalc(int iterations, int dimensions, bool isParallel);
+    void noOfSamplesCalc(int iterations, int dimensions, int isParallel);
 
 public:
     double meanCalculator(vector<double> timeCollection);

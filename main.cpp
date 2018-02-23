@@ -4,22 +4,23 @@
 int main() {
 
     int dimensions, iterations;
-    bool isParallel = false;
-    bool optimizedRun = false;
+    int isParallel = 1;
     string method;
 
     cout << "Enter dimensions of the matrix: " << endl;
     cin >> dimensions;
     cout << "Enter number of the iterations: " << endl;
     cin >> iterations;
-    cout << "Method of execution[y=parallel,n=sequential]: " << endl;
+    cout << "Method of execution[p=parallel,s=sequential,o=optimized]: " << endl;
     cin >> method;
     cout << endl;
 
-    if (method == "y") {
-        isParallel = true;
-    } else if (method == "n") {
-        isParallel = false;
+    if (method == "p") {
+        isParallel = 0;
+    } else if (method == "s") {
+        isParallel = 1;
+    }else if(method == "o"){
+        isParallel = 2;
     }
 
     SampleCalculator sampleCalculator;

@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/InitializationMatrix.cpp" "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o"
-  "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/OptimizedParallelMatrixMultiplication.cpp" "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o"
-  "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/ParallelMultiplication.cpp" "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o"
-  "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SampleCalculator.cpp" "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles/Lab4.dir/SampleCalculator.cpp.o"
-  "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/SequentialMultiplication.cpp" "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o"
-  "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/main.cpp" "/media/menuka/Data/github.com/menuka94/Lab-04---Parallel-For-Loop-Optimization/cmake-build-debug/CMakeFiles/Lab4.dir/main.cpp.o"
+  "/home/kusal/CLionProjects/Lab4/InitializationMatrix.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/InitializationMatrix.cpp.o"
+  "/home/kusal/CLionProjects/Lab4/OptimizedParallelMatrixMultiplication.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/OptimizedParallelMatrixMultiplication.cpp.o"
+  "/home/kusal/CLionProjects/Lab4/ParallelMultiplication.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/ParallelMultiplication.cpp.o"
+  "/home/kusal/CLionProjects/Lab4/SampleCalculator.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/SampleCalculator.cpp.o"
+  "/home/kusal/CLionProjects/Lab4/SequentialMultiplication.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/SequentialMultiplication.cpp.o"
+  "/home/kusal/CLionProjects/Lab4/main.cpp" "/home/kusal/CLionProjects/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

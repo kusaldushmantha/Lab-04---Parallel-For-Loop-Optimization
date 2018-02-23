@@ -14,10 +14,11 @@ ParallelMultiplication::parallelMultiply(vector<vector<double>> matA,
 
     omp_set_num_threads(10);
     double startTime = clock();
-#pragma omp parallel for
+    #pragma omp parallel for
     for (int i = 0; i < dimensions; i++) {
         noThreadCount = omp_get_num_threads();
         for (int j = 0; j < dimensions; j++) {
+            matC[i][j] = 0;
             for (int k = 0; k < dimensions; k++) {
                 matC[i][j] += matA[i][k] * matB[k][j];
             }

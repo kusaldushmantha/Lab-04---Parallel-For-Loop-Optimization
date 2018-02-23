@@ -9,27 +9,28 @@
 #include "ParallelMultiplication.h"
 #include "OptimizedParallelMatrixMultiplication.h"
 
-void SampleCalculator::noOfSamplesCalc(int iterations, int dimensions, bool isParallel) {
+void SampleCalculator::noOfSamplesCalc(int iterations, int dimensions, int isParallel) {
     InitializationMatrix init;
     SequentialMultiplication seqMul;
     ParallelMultiplication parallelMul;
     OptimizedParallelMatrixMultiplication optimised;
 
     vector<double> timeCollection;;
-    int threads;
+    int threads = 1;
     for (int i = 0; i < iterations; i++) {
 
         auto matrixA = init.generateSquareMatrix(dimensions);
         auto matrixB = init.generateSquareMatrix(dimensions);
         auto matrixC = init.generateEmptyMatrix(dimensions);
 
-        if (isParallel) {
-            //timeCollection.push_back(parallelMul.parallelMultiply(matrixA, matrixB, matrixC));
+        if (isParallel==0) {
+            timeCollection.push_back(parallelMul.parallelMultiply(matrixA, matrixB, matrixC));
             threads = parallelMul.noThreadCount;
+        }else if(isParallel==1){
+            timeCollection.push_back(seqMul.sequentialMultiply(matrixA, matrixB, matrixC));
+        }else {
             timeCollection.push_back(optimised.optimizedMultiplication(matrixA, matrixB, matrixC, dimensions));
             threads = optimised.threadCount;
-        } else {
-            timeCollection.push_back(seqMul.sequentialMultiply(matrixA, matrixB, matrixC));
         }
 
     }
@@ -38,6 +39,9 @@ void SampleCalculator::noOfSamplesCalc(int iterations, int dimensions, bool isPa
     double stdDev = standardDevCalc(timeCollection, mean);
 
     double samples = ((100 * 1.96 * stdDev) / (5 * mean));
+    if(samples<=1){
+        samples = 10;
+    }
 
     cout << "Dimensions:" + to_string(dimensions) << endl;
     cout << "Iterations:" + to_string(iterations) << endl;

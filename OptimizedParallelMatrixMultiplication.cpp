@@ -11,14 +11,24 @@ OptimizedParallelMatrixMultiplication::optimizedMultiplication(vector<vector<dou
                                                                vector<vector<double>> emptyMat, int dimension) {
 
     vector<vector<double>> transposedMat = transposeMatrix(matB, dimension);
-omp_set_num_threads(10);
-#pragma parallel for
+
+    threadCount = 0;
+
+    omp_set_num_threads(10);
+    double startTime = clock();
+    #pragma omp parallel for
     for (int i = 0; i < dimension; i++) {
         threadCount = omp_get_num_threads();
         for (int j = 0; j < dimension; ++j) {
             emptyMat[i][j] = computeDotProduct(matA[i], transposedMat[j], dimension);
         }
     }
+    double endTime = clock();
+
+    double elapsedTime = (endTime - startTime) / CLOCKS_PER_SEC;
+    cout << elapsedTime << endl;
+    return elapsedTime;
+
 }
 
 vector<vector<double>>
@@ -27,8 +37,8 @@ OptimizedParallelMatrixMultiplication::transposeMatrix(vector<vector<double>> ma
     vector<vector<double>> matTranspose = initializationMatrix.generateEmptyMatrix(dimensions);
 
 #pragma parallel for
-    for (int i = 0; i < dimensions; i++) {
-        for (int j = 0; j < dimensions; ++j) {
+    for (int i = 0; i < dimensions; ++i) {
+        for (int j = 1; j < dimensions; ++j) {
             matTranspose[j][i] = matrix[i][j];
         }
     }
@@ -43,3 +53,4 @@ OptimizedParallelMatrixMultiplication::computeDotProduct(vector<double> val1, ve
     }
     return temp;
 }
+
